@@ -4,41 +4,85 @@ using UnityEngine.SceneManagement;
 
 public class PuzzleSceneManager : MonoBehaviour
 {
-   [Header("Main Scene")]
-   public GameObject playBG;
-   public GameObject SelectPuzzle;
+    [SerializeField] private GameObject maryKom;
+    [SerializeField] private GameObject amelia;
+    [SerializeField] private GameObject jk;
+    [SerializeField] private GameObject marie;
+    [SerializeField] private GameObject indra;
     
-   [Header("Puzzle Scene")]
-   public GameObject finishPuzzle;
+    [SerializeField] private string rebelName = "";
 
-   private void Start()
-   {
-      if (finishPuzzle != null)
-      {
-         finishPuzzle.SetActive(false);
-      }
-   }
+    private void Start()
+    {
+        Time.timeScale = 1;
+        if (!string.IsNullOrEmpty(PlayerPrefs.GetString("RebelName")))
+        {
+            rebelName = PlayerPrefs.GetString("RebelName");
+        }
+    }
+    
+    
+    
+    public void EnableObjectByName()
+    {
+        switch (rebelName)
+        {
+            case "MaryKom":
+                if (maryKom != null) maryKom.SetActive(true);
+                break;
 
-   public void PlayPuzzle()
-   {
-      playBG.SetActive(false);
-      SelectPuzzle.SetActive(true);
-   }
+            case "Amelia":
+                if (amelia != null) amelia.SetActive(true);
+                break;
 
-   public void SelectPuzzleScene(string sceneName)
-   {
-      SceneManager.LoadScene(sceneName);
-      
-   }
+            case "JK":
+                if (jk != null) jk.SetActive(true);
+                break;
 
-   public void LoadScene(string sceneName)
-   {
-      SceneManager.LoadScene(sceneName);
-      
-   }
+            case "Marie":
+                if (marie != null) marie.SetActive(true);
+                break;
 
-   public void CloseFinishedPuzzle()
-   {
-      finishPuzzle.SetActive(false);
-   }
+            case "Indra":
+                if (indra != null) indra.SetActive(true);
+                break;
+            
+            case "MaryKom1":
+                if (maryKom != null) maryKom.SetActive(true);
+                break;
+
+            case "Amelia1":
+                if (amelia != null) amelia.SetActive(true);
+                break;
+
+            case "JK1":
+                if (jk != null) jk.SetActive(true);
+                break;
+
+            case "Marie1":
+                if (marie != null) marie.SetActive(true);
+                break;
+
+            case "Indra1":
+                if (indra != null) indra.SetActive(true);
+                break;
+
+            default:
+                Debug.LogWarning($"No GameObject found for name: {name}");
+                break;
+        }
+    }
+
+    public void LoadPuzzleGame(int gameIndex)
+    {
+        if (gameIndex == 1)
+        {
+            PlayerPrefs.SetString("RebelName", rebelName + gameIndex);
+        }
+        else
+        {
+            PlayerPrefs.SetString("RebelName", rebelName);
+        }
+        SceneManager.LoadScene("Puzzle");
+    }
 }
