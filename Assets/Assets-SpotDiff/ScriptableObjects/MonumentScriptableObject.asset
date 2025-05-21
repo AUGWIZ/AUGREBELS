@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb81995e11325b41a8a177c57c8c7bc, type: 3}
+  m_Name: MonumentScriptableObject
+  m_EditorClassIdentifier: 
+  monumentModels:
+  - _monumentType: 0
+    _modeClasses:
+    - _modeType: 0
+      _score: 0
+      isPlayed: 0
+    - _modeType: 1
+      _score: 0
+      isPlayed: 0
+    - _modeType: 2
+      _score: 0
+      isPlayed: 0
+    _totalScore: 0
+  - _monumentType: 1
+    _modeClasses:
+    - _modeType: 0
+      _score: 0
+      isPlayed: 0
+    - _modeType: 1
+      _score: 0
+      isPlayed: 0
+    - _modeType: 2
+      _score: 0
+      isPlayed: 0
+    _totalScore: 0
+  - _monumentType: 2
+    _modeClasses:
+    - _modeType: 0
+      _score: 0
+      isPlayed: 0
+    - _modeType: 1
+      _score: 0
+      isPlayed: 0
+    - _modeType: 2
+      _score: 0
+      isPlayed: 0
+    _totalScore: 0
+  - _monumentType: 3
+    _modeClasses:
+    - _modeType: 0
+      _score: 0
+      isPlayed: 0
+    - _modeType: 1
+      _score: 0
+      isPlayed: 0
+    - _modeType: 2
+      _score: 0
+      isPlayed: 0
+    _totalScore: 0
+  - _monumentType: 4
+    _modeClasses:
+    - _modeType: 0
+      _score: 0
+      isPlayed: 0
+    - _modeType: 1
+      _score: 0
+      isPlayed: 0
+    - _modeType: 2
+      _score: 0
+      isPlayed: 0
+    _totalScore: 0
+  - _monumentType: 5
+    _modeClasses:
+    - _modeType: 0
+      _score: 0
+      isPlayed: 0
+    - _modeType: 1
+      _score: 0
+      isPlayed: 0
+    - _modeType: 2
+      _score: 0
+      isPlayed: 0
+    _totalScore: 0
+  - _monumentType: 6
+    _modeClasses:
+    - _modeType: 0
+      _score: 0
+      isPlayed: 0
+    - _modeType: 1
+      _score: 0
+      isPlayed: 0
+    - _modeType: 2
+      _score: 0
+      isPlayed: 0
+    _totalScore: 0
