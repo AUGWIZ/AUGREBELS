@@ -5516,37 +5516,37 @@ MonoBehaviour:
   _congraulationsScreen: {fileID: 1684640980}
   _historyScreen: {fileID: 614428777}
   historyScreenImageDataModels:
-  - backGroundImage: {fileID: 21300000, guid: c5196233fcb17e44b80fc20c73752b9f, type: 3}
+  - backGroundImage: {fileID: 21300000, guid: b5ed5aa1ed68f0b46907dbb8ed718533, type: 3}
     contentImage: {fileID: 21300000, guid: 68b95e36c2246004b880b4bed2cb0356, type: 3}
     boardImage: {fileID: 21300000, guid: bb2c7d14828f8e241981f603096daeb7, type: 3}
     boardInstructionsImage: {fileID: 21300000, guid: b085cf5194cd96f4db52288e2444df60, type: 3}
     mounMentType: 0
-  - backGroundImage: {fileID: 21300000, guid: 287d12759a4920a4ea936c46cb1510fd, type: 3}
+  - backGroundImage: {fileID: 21300000, guid: b5ed5aa1ed68f0b46907dbb8ed718533, type: 3}
     contentImage: {fileID: 21300000, guid: 4c208f67e8d473e40a1e43d07a4242b2, type: 3}
     boardImage: {fileID: 21300000, guid: 6ebf6fece859c1a4aafa734ef89f3ed9, type: 3}
     boardInstructionsImage: {fileID: 21300000, guid: 35889eb91f0675947b9a91a0513fe3fe, type: 3}
     mounMentType: 1
-  - backGroundImage: {fileID: 21300000, guid: e95f80190cd063445a901d935a3458c2, type: 3}
+  - backGroundImage: {fileID: 21300000, guid: b5ed5aa1ed68f0b46907dbb8ed718533, type: 3}
     contentImage: {fileID: 21300000, guid: d0d415205b3478244849cdb0e5fe24c4, type: 3}
     boardImage: {fileID: 21300000, guid: a94104dc51d979c4c8f68f29a50eba52, type: 3}
     boardInstructionsImage: {fileID: 21300000, guid: ecf4f1286fab77e45bf634ed3f810840, type: 3}
     mounMentType: 2
-  - backGroundImage: {fileID: 21300000, guid: cac51bf1669c1f24ebeb2ac2bd0fc2b8, type: 3}
-    contentImage: {fileID: 21300000, guid: 53554249c810b8e46ab0910f29369272, type: 3}
+  - backGroundImage: {fileID: 21300000, guid: b5ed5aa1ed68f0b46907dbb8ed718533, type: 3}
+    contentImage: {fileID: 21300000, guid: 4676faccfaf68c94ca44169317f1be7d, type: 3}
     boardImage: {fileID: 21300000, guid: c47556b81d2ced249ab92e933a2124ba, type: 3}
-    boardInstructionsImage: {fileID: 21300000, guid: 8fb3a381d91b86840884b9a37d2ff904, type: 3}
+    boardInstructionsImage: {fileID: 21300000, guid: 55d14551511f29e4094bb639df1e1a6b, type: 3}
     mounMentType: 3
-  - backGroundImage: {fileID: 21300000, guid: 6a10364047e96cd40b902c5af94b93e2, type: 3}
+  - backGroundImage: {fileID: 21300000, guid: b5ed5aa1ed68f0b46907dbb8ed718533, type: 3}
     contentImage: {fileID: 21300000, guid: 5083f04d1a60c144e929e52b64a3776e, type: 3}
     boardImage: {fileID: 21300000, guid: 5fe391c334904284f9ccfdc35606e83b, type: 3}
     boardInstructionsImage: {fileID: 21300000, guid: fb2b4242986634b4e814a3bbce11cd2d, type: 3}
     mounMentType: 4
-  - backGroundImage: {fileID: 21300000, guid: 6e257db46b9ee934882c54d88a4d5eda, type: 3}
+  - backGroundImage: {fileID: 21300000, guid: b5ed5aa1ed68f0b46907dbb8ed718533, type: 3}
     contentImage: {fileID: 21300000, guid: 6d91c80a0d7951a47a216579753edaf3, type: 3}
     boardImage: {fileID: 21300000, guid: cc76f9dfc2d4ae14d866038f9ecbfd8f, type: 3}
     boardInstructionsImage: {fileID: 21300000, guid: 593d518a2870daf4aba94da427b9c6df, type: 3}
     mounMentType: 5
-  - backGroundImage: {fileID: 21300000, guid: bcaee808f240eec4f990695fb30c5f46, type: 3}
+  - backGroundImage: {fileID: 21300000, guid: b5ed5aa1ed68f0b46907dbb8ed718533, type: 3}
     contentImage: {fileID: 21300000, guid: 30cf63cd88626c24e83b32ea08aa275b, type: 3}
     boardImage: {fileID: 21300000, guid: 3b598f7cd56e58b4da5698234e1a03d8, type: 3}
     boardInstructionsImage: {fileID: 21300000, guid: d3fe1500d96b9a441a786bde4427b01e, type: 3}
@@ -9952,7 +9952,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1771962613}
-  - component: {fileID: 1771962614}
   m_Layer: 5
   m_Name: MenuScreen--en
   m_TagString: Untagged
@@ -9982,28 +9981,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &1771962614
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1771962612}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b0dde3634d777ab49875c2693bf3e013, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1776182928
 GameObject:
   m_ObjectHideFlags: 0
