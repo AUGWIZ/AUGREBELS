@@ -136,6 +136,7 @@ namespace SpotTheDifference
             historyPanelBG.sprite = historyScreenImageDataModels[_index].backGroundImage;
             historyPanelMilestoneImage.sprite = historyScreenImageDataModels[_index].boardImage;
             historyContentImage.sprite = historyScreenImageDataModels[_index].contentImage;
+            historyInstructionsImage.sprite = historyScreenImageDataModels[_index].boardInstructionsImage;
 
             _currentScreenType = DataModel.ScreenType.HistoryScreen;
         }
