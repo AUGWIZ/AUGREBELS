@@ -5559,9 +5559,9 @@ MonoBehaviour:
     - _modeType: 0
       _videoClip: {fileID: 32900000, guid: dcefe33f66715194abd7450314361f35, type: 3}
       _spotDifferenceObject: {fileID: 3312772140351742351, guid: 21c203d84e9ff6448b36277dc67f0d76, type: 3}
-    - _modeType: 2
+    - _modeType: 1
       _videoClip: {fileID: 32900000, guid: 3ff1be75c993e0d42b253bcc86c8b37b, type: 3}
-      _spotDifferenceObject: {fileID: 6814719587866286105, guid: 15862f51eb92bab4fb8b38f2327e774e, type: 3}
+      _spotDifferenceObject: {fileID: 509517150756266665, guid: 629fe6506be235a4fbc03125a6304037, type: 3}
   - _mounmentType: 4
     _modeVideoModels:
     - _modeType: 0
