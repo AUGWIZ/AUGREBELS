@@ -1093,6 +1093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7469761524948677688}
   - component: {fileID: 3227265773693330576}
+  - component: {fileID: -8701778593611659487}
   m_Layer: 5
   m_Name: MarieEasySlot
   m_TagString: Untagged
@@ -1142,6 +1143,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   limit: 10
+--- !u!114 &-8701778593611659487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3312772140351742351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ac2389b19ef304ca15d810d1259d03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiElements: []
+  applyWidescreenScale: 1
+  widescreenScale: {x: 1.15, y: 0.9, z: 1}
+  applyUltraWideScreenScale: 1
+  ultraWideScreenScale: {x: 1.15, y: 0.9, z: 1}
+  applyTabletScale: 0
+  tabletScale: {x: 1.2, y: 1.2, z: 1}
+  applyTabletScaleMid: 1
+  tabletScale_Mid: {x: 1, y: 1.05, z: 1}
+  applySquareLikeOrPortraitTabletScale: 1
+  SquareLikeOrPortraitTabletScale: {x: 0.9, y: 1.15, z: 1}
+  applyPortraitScale: 0
+  portraitScale: {x: 0.8, y: 0.8, z: 1}
+  notes: 
 --- !u!1 &3586976378441605998
 GameObject:
   m_ObjectHideFlags: 0

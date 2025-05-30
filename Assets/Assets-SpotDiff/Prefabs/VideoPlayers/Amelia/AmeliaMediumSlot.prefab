@@ -428,8 +428,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -110, y: -942}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -96.999954, y: -942}
+  m_SizeDelta: {x: 113, y: 112.8242}
   m_Pivot: {x: 1, y: 1}
 --- !u!61 &2978584662111654179
 BoxCollider2D:
@@ -1227,8 +1227,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -116, y: -310}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -116, y: -289.3254}
+  m_SizeDelta: {x: 122.2476, y: 138.7649}
   m_Pivot: {x: 1, y: 1}
 --- !u!61 &7043569289869418989
 BoxCollider2D:
@@ -1597,8 +1597,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -439, y: -278}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -408.66226, y: -278}
+  m_SizeDelta: {x: 112.1352, y: 120.6746}
   m_Pivot: {x: 1, y: 1}
 --- !u!61 &9203763086037663660
 BoxCollider2D:
@@ -1774,6 +1774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6949095234043734969}
   - component: {fileID: 6138087807487333791}
+  - component: {fileID: -903970351384725767}
   m_Layer: 5
   m_Name: AmeliaMediumSlot
   m_TagString: Untagged
@@ -1823,6 +1824,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   limit: 10
+--- !u!114 &-903970351384725767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5131496065609080802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ac2389b19ef304ca15d810d1259d03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiElements: []
+  applyWidescreenScale: 1
+  widescreenScale: {x: 1.15, y: 0.9, z: 1}
+  applyUltraWideScreenScale: 1
+  ultraWideScreenScale: {x: 1.15, y: 0.9, z: 1}
+  applyTabletScale: 0
+  tabletScale: {x: 1.2, y: 1.2, z: 1}
+  applyTabletScaleMid: 1
+  tabletScale_Mid: {x: 1, y: 1.05, z: 1}
+  applySquareLikeOrPortraitTabletScale: 1
+  SquareLikeOrPortraitTabletScale: {x: 0.9, y: 1.15, z: 1}
+  applyPortraitScale: 0
+  portraitScale: {x: 0.8, y: 0.8, z: 1}
+  notes: 
 --- !u!1 &5150161674399878194
 GameObject:
   m_ObjectHideFlags: 0
@@ -2161,7 +2188,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -97, y: -598}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 100, y: 110.3373}
   m_Pivot: {x: 1, y: 1}
 --- !u!61 &4392757643498121873
 BoxCollider2D:
@@ -2439,8 +2466,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -333, y: -911}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -289.2115, y: -926.66656}
+  m_SizeDelta: {x: 143.7885, y: 84.3334}
   m_Pivot: {x: 1, y: 1}
 --- !u!61 &144047932737104498
 BoxCollider2D:
@@ -2820,8 +2847,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -729, y: -887}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -682.41, y: -887}
+  m_SizeDelta: {x: 146.59, y: 140.2857}
   m_Pivot: {x: 1, y: 1}
 --- !u!61 &6926722627519154642
 BoxCollider2D:
@@ -3099,8 +3126,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -735, y: -236}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -682.41473, y: -236}
+  m_SizeDelta: {x: 146.59, y: 100}
   m_Pivot: {x: 1, y: 1}
 --- !u!61 &1329542581492416099
 BoxCollider2D:
@@ -3566,18 +3593,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8015759439733366351}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.19834301, w: 0.9801327}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7058013691412644215}
   m_Father: {fileID: 6949095234043734969}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -22.88}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -327, y: -681}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -253, y: -706}
+  m_SizeDelta: {x: 104.045, y: 174.9453}
   m_Pivot: {x: 1, y: 1}
 --- !u!61 &986778545489961668
 BoxCollider2D:
@@ -4048,8 +4075,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -762, y: -383}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -717.5047, y: -383}
+  m_SizeDelta: {x: 144.4953, y: 100}
   m_Pivot: {x: 1, y: 1}
 --- !u!61 &215216821242930192
 BoxCollider2D:

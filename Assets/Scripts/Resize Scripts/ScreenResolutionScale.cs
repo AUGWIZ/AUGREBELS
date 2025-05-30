@@ -45,6 +45,11 @@ public class ScreenResolutionScale : MonoBehaviour
 
     void Start()
     {
+        if (uiElements == null || uiElements.Count == 0)
+        {
+            uiElements = new List<GameObject> { gameObject }; // Add the current GameObject
+        }
+        
         DetermineResolutionCategory();
     }
 
