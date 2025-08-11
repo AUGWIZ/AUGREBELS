@@ -14,6 +14,7 @@ public class PuzzleSceneManager : MonoBehaviour
 
     private void Start()
     {
+        MusicManager.instance.Mute();
         Time.timeScale = 1;
         if (!string.IsNullOrEmpty(PlayerPrefs.GetString("RebelName")))
         {

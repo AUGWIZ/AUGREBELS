@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class SpriteGroup
@@ -19,6 +21,11 @@ public class PuzzleSpriteAssigner : MonoBehaviour
     [Header("Index of the Sprite Group to Use")]
     [SerializeField] private int groupIndex = 0;
 
+    [Header("Hint Panel")] [SerializeField]
+    private SpriteRenderer completedPuzzle;
+    [SerializeField] private Image hintPanelImage;
+    [SerializeField] private List<Sprite> hintSprites;
+    
     [SerializeField] private string rebelName = "";
     
     public GameController gameController;
@@ -82,6 +89,8 @@ public class PuzzleSpriteAssigner : MonoBehaviour
 
     private void AssignSprites(int index)
     {
+        hintPanelImage.sprite = hintSprites[index];
+        completedPuzzle.sprite = hintSprites[index];
         if (index < 0 || index >= spriteGroups.Count)
         {
             Debug.LogWarning("Invalid group index.");

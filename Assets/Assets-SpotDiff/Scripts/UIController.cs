@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
@@ -41,7 +42,7 @@ namespace SpotTheDifference
         [SerializeField] private VideoPlayer _videoPlayerRF;
 
         [Header("Score UI")]
-        [SerializeField] private Text _scoreTMP;
+        [SerializeField] private TextMeshProUGUI _scoreTMP;
 
         [Header("Chances UI")]
         [SerializeField] private List<Image> _chancesImages;
@@ -83,7 +84,9 @@ namespace SpotTheDifference
         #region MonoBehaviour Method
         // Awake is called when the script instance is being loaded
         private void Awake()
-        {          
+        {   
+            MusicManager.instance.Mute();
+            
             // Check if an instance already exists and destroy the new one if it does
             if (Instance != null && Instance != this)
             {

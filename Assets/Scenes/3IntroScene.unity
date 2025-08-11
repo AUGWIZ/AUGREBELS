@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoLoad: 1
-  delay: 4
+  delay: 6
   sceneToLoad: 4ChooseGame
   currentGameName: 
   rebelChoosen: 

@@ -57,4 +57,9 @@ public class SceneChangeManager : MonoBehaviour
         rebelChoosen = rebelName;
         SceneManager.LoadScene(currentGameName);
     }
+
+    public void QuitApplication()
+    {
+        Application.Quit();
+    }
 }

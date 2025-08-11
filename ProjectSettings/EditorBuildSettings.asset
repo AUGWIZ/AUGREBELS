@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/0QR.unity
+    guid: 4000e92b9243ca84481665c8bb160095
+  - enabled: 1
     path: Assets/Scenes/1MainScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
@@ -21,8 +24,11 @@ EditorBuildSettings:
     path: Assets/Scenes/5ChooseRebel.unity
     guid: 97148a3340bafcb4e9af49de1a262344
   - enabled: 1
-    path: Assets/Scenes/7RebelVision.unity
+    path: Assets/Scenes/6RebelReel.unity
     guid: 5739da8d054da7f468d762192a91a871
+  - enabled: 1
+    path: Assets/Scenes/7RebelVision.unity
+    guid: c9f5844f7048ee146a436c767754a782
   - enabled: 1
     path: Assets/Scenes/8RebelLink.unity
     guid: ac6e5dea940b5b94b87d481729816bf0

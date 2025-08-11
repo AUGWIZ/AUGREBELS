@@ -167,7 +167,7 @@ RectTransform:
   m_GameObject: {fileID: 4635271125121292256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2213809094886950762}
@@ -175,7 +175,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -40, y: 40}
+  m_AnchoredPosition: {x: -25, y: 40}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 1, y: 0}
 --- !u!222 &7333566367528321358
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1f8f10d100d30f64fb323bc9a144df71, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3da425024229d6c47922b3cd163c0659, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -285,5 +285,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muteUnmuteButton: {fileID: 2804936437910800950}
-  muteIcon: {fileID: 21300000, guid: 78b15e33f0e96f34795ec386e0241284, type: 3}
-  unmuteIcon: {fileID: 21300000, guid: 1f8f10d100d30f64fb323bc9a144df71, type: 3}
+  muteIcon: {fileID: 21300000, guid: b8c7a0d2b2b384c42a17c0a5d816d20e, type: 3}
+  unmuteIcon: {fileID: 21300000, guid: 3da425024229d6c47922b3cd163c0659, type: 3}
