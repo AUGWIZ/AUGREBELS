@@ -761,17 +761,17 @@ MonoBehaviour:
   rebelName: 
   videoPlayer: {fileID: 186598903}
   beginningVideos:
+  - {fileID: 32900000, guid: d89ae485c0d8e4013bc451b20e4bbd66, type: 3}
+  - {fileID: 32900000, guid: 9bc78fe0975454a058c7e43583a6e894, type: 3}
+  - {fileID: 32900000, guid: 95228f390ebbd408cbf426dd18e402b1, type: 3}
   - {fileID: 32900000, guid: 3325b1a95e47b8e48bd7a5f75aa3abef, type: 3}
-  - {fileID: 32900000, guid: 3325b1a95e47b8e48bd7a5f75aa3abef, type: 3}
-  - {fileID: 32900000, guid: 3325b1a95e47b8e48bd7a5f75aa3abef, type: 3}
-  - {fileID: 32900000, guid: 3325b1a95e47b8e48bd7a5f75aa3abef, type: 3}
-  - {fileID: 32900000, guid: 3325b1a95e47b8e48bd7a5f75aa3abef, type: 3}
+  - {fileID: 32900000, guid: d6501ed56731e4779b5b7e98e831cf2a, type: 3}
   breakingBarrierVideos:
+  - {fileID: 32900000, guid: a76db2ac0bfce4a49895481bb3256309, type: 3}
+  - {fileID: 32900000, guid: 76fe93283965641648ce1aa7605428f8, type: 3}
+  - {fileID: 32900000, guid: 7b11c9ee5565a43e586d8ce763fe2453, type: 3}
   - {fileID: 32900000, guid: 8448e06394620764e87cda96d9f1e8bf, type: 3}
-  - {fileID: 32900000, guid: 8448e06394620764e87cda96d9f1e8bf, type: 3}
-  - {fileID: 32900000, guid: 8448e06394620764e87cda96d9f1e8bf, type: 3}
-  - {fileID: 32900000, guid: 8448e06394620764e87cda96d9f1e8bf, type: 3}
-  - {fileID: 32900000, guid: 8448e06394620764e87cda96d9f1e8bf, type: 3}
+  - {fileID: 32900000, guid: d235c109724a84bbca95827ae358fa25, type: 3}
   playHolder: {fileID: 4723774130375495915}
   videoPlayerRenderer: {fileID: 1918580780}
 --- !u!4 &503809901

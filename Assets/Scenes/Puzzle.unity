@@ -638,8 +638,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7b02d1b755be18a4eb22fead8d679152, type: 3}
   - {fileID: 21300000, guid: 3e20e402a22761f448c31fc81a1e0cf8, type: 3}
   - {fileID: 21300000, guid: 4098a7277b0002245a5424b32d07310a, type: 3}
-  - {fileID: 21300000, guid: cfb6d6239d47a7b43bdfd56f17297a5f, type: 3}
   - {fileID: 21300000, guid: 71a2a957b6f4178449d5bf46b6677673, type: 3}
+  - {fileID: 21300000, guid: cfb6d6239d47a7b43bdfd56f17297a5f, type: 3}
   rebelName: 
   gameController: {fileID: 1002869239}
 --- !u!4 &906114226

@@ -6043,7 +6043,7 @@ MonoBehaviour:
   - _mounmentType: 1
     _modeVideoModels:
     - _modeType: 0
-      _videoClip: {fileID: 32900000, guid: cbdf2e21fe681b8408c82bc4587b0b7c, type: 3}
+      _videoClip: {fileID: 32900000, guid: 91280344b19fc4ba6b47f51fa5dbd91f, type: 3}
       _spotDifferenceObject: {fileID: 5607617756832754196, guid: 77ef6614dceba4441bebc7e5b75e1146, type: 3}
     - _modeType: 1
       _videoClip: {fileID: 32900000, guid: 8b04708b20fdc9a43a0e8e7131becaf6, type: 3}
